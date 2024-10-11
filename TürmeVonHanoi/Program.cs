@@ -15,6 +15,7 @@ namespace TürmeVonHanoi
 
             if (int.TryParse(Console.ReadLine(), out int spielsteine))
             {
+                Console.WriteLine($"Die Lösung für {spielsteine} Spielsteine ist:");
                 TürmeVerschieben(spielsteine, 'L', 'M', 'R');
             }
 
